@@ -10,7 +10,7 @@ func ExamplePaymentSources() {
 		{
 			Balance: 100,
 			Active:  true,
-			PAN:     "1324",
+			PAN:     "1234",
 		},
 		{
 			Balance: 1001,
