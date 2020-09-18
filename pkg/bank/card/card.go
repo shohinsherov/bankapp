@@ -5,16 +5,6 @@ import (
 	"bank/pkg/bank/types"
 )
 
-// Total функция
-func Total(cards []types.Card) types.Money {
-	sum := types.Money(0)
-	for _, card := range cards {
-		sum += card.Balance
-
-	}
-	return sum
-}
-
 // PaymentSources функция
 func PaymentSources(cards []types.Card) []types.PaymentSource {
 	var PaymentCards []types.PaymentSource
